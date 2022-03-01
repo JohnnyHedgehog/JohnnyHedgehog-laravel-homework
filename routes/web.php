@@ -23,7 +23,7 @@ Route::get('/hello/{name}', fn (string $name) =>  "<h1>Hello, {$name}</h1>");
 Route::get('/hello', fn() => "Hello, World!");
 
 //Выводим страницу с информацией о проекте
-Route::get('/info', fn() => "This is our porject");
+Route::get('/info', fn() => "This is new porject");
 
 //Выводим страницу с новостями
 Route::get('/news', fn() => "Latest news");
